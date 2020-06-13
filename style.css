@@ -1,10 +1,3 @@
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-
-html,
 body {
     background-color: rgb(255, 244, 225);
     margin: 0px;
