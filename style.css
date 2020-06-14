@@ -155,3 +155,35 @@ button:active {
     background-color: black;
     border-radius: 10px;
 }
+.work {
+    padding: 2% 10% 0px 10%;
+    height: 600px;
+    background-color: whitesmoke;
+}
+.work-text p:nth-child(1) {
+    font-family: 'Lucida Sans Unicode';
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    line-height: 0px;
+}
+.work-text p:nth-child(2) {
+    font-size: 15px;
+    line-height: 5px;
+}
+.work-text p:nth-child(3) {
+    color: blue;
+}
+.work {
+    margin: 50px 0px;
+    width: 500px;
+}
+.work-box1, .work-box2, .work-box3 {
+    width: 300px;
+    height: 320px;
+    box-shadow: rgba(146, 0, 114, 0.815);
+}
+.work-container {
+    display: flex;
+    justify-content: space-between;
+}
