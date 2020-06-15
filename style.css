@@ -192,7 +192,7 @@ button:active {
     width: 300px;
     height: 340px;
     background-color:black;
-    box-shadow: 2px 2px 12px rgba(146, 0, 114, 0.815);
+    box-shadow: 2px 2px 12px rgba(146, 0, 114, 0.534);
     /*border-radius: 10px;
     justify-content: center;
     align-items: center;
@@ -201,15 +201,15 @@ button:active {
 .box2 {
     width: 300px;
     height: 340px;
-    background-color: black;
-    box-shadow: 2px 2px 12px rgba(146, 0, 114, 0.685);
+    background-color: rgba(0, 0, 0, 0.863);
+    box-shadow: 2px 2px 12px rgba(146, 0, 114, 0.534);
     /*border-radius: 10px;*/
 }
 .box3 {
     width: 300px;
     height: 340px;
     background-color: black;
-    box-shadow: 2px 2px 12px rgba(146, 0, 114, 0.685);
+    box-shadow: 2px 2px 12px rgba(146, 0, 114, 0.534);
     /*border-radius: 10px;*/
 }
 .box {
@@ -305,6 +305,11 @@ button:active {
     display: flex;
     justify-content: center;
 }
+.social a:hover {
+    background-color: black;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    transition: all ease 0.5s   
+}
 .copyright {
     background-color: white;
     height: 40px;
@@ -312,6 +317,26 @@ button:active {
     text-align: center;
     margin-top: 50px;
     box-shadow: rgba(146, 0, 114, 0.815);
+}
+.social-bar {
+    position: fixed;
+    top: 50%;
+    right: 0px;
+    transform: translateX(-50%);
+}
+.social-bar a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    margin: 0px;
+    line-height: 0px;
+    color: whitesmoke;
+    background-color: black;
+    border: 1px solid whitesmoke;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
 }
 
 
