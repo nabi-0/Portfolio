@@ -8,21 +8,28 @@
         <title>Natalia Arias</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/d951a73f90.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <section>
             <nav>
                 <a class="logo"> Natalia Arias</a>
                 <ul>
-                    <li><a href="#">Hello</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li>
+                        <a href="#hello">Hello</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
                 </ul>
-                <div class=""></div>
             </nav>
-            <div class="text-container">
+            <div id="hello" class="text-container">
                 <p>Hi. HELLO.</p>
                 <p>NATALIA ARIAS</p>
                 <p>I might need this....</p>
@@ -30,7 +37,7 @@
             </div>
             <!--img src="assets/images/coding_icon.jpg" class="code-icon" alt="code-icon"-->
         </section>
-        <div class="about-me-container">
+        <div id="about"class="about-me-container">
             <img src="assets/images/portfolio_img.png" class="portfolio_img">
             <div class="about-me-text">
                 <p>About Me</p>
@@ -44,7 +51,7 @@
                 <button class="about-me-btn">My Resume</button>
             </div>
         </div>
-        <div class="work">
+        <div id="portfolio" class="work">
             <div class="work-text">
              <p>Recent Projects</p>
              <p>Working of html css jave api blah blah blah</p>
@@ -52,7 +59,7 @@
             </div>
             <div class="box">
                 <div class="box1">
-                    <h2>1</h2>
+                    <p>1</p>
                     <p class="title">Team Player</p>
                     <p class="details">Write about HW4 the quiz and say cool stuff about it so 
                         we can have ice cream for dinner and chill.</p>
@@ -60,15 +67,15 @@
                     <button>Git Repo</button>
                 </div>
                 <div class="box2">
-                    <h2>2</h2>
+                    <p>2</p>
                     <p class="title">Password Generator</p>
                     <p class="details">Write about HW4 the quiz and say cool stuff about it so 
                         we can have ice cream for dinner and chill.</p>
-                    <button>Website</button><br>
+                    <button class="gitweb">Website</button><br>
                     <button>Git Repo</button>
                 </div>
                 <div class="box3">
-                    <h2>3</h2>
+                    <p>3</p>
                     <p class="title">Code Quiz</p>
                     <p class="details">Write about HW4 the quiz and say cool stuff about it so 
                         we can have ice cream for dinner and chill.</p>
@@ -77,7 +84,7 @@
                 </div>
             </div>
         </div>
-        <div class="contact-info">
+        <div id="contact" class="contact-info">
             <div class="contact">
                 <p>Contact Info</p>
                 <p>Natalia Arias</p>
@@ -92,14 +99,16 @@
                 <a href="mailto:arias.natalia1303@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
             </div>
         </div>
-        <div class="social-bar">
-            <a href="#"><i class="fab fa-github"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-            <a href="#"><i class="fa fa-envelope"></i></a>
-        </div>
+        <!----were side bar was---->
         <footer class="copyright">
             <p>copyright stuff</p>
+            <div class="social-bar">
+                <a href="https://github.com/nabi-0" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:arias.natalia1303@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+            </div>
         </footer>
+        <script src="JQuery.js"></script>
     </body>
 
 </html>
