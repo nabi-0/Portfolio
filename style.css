@@ -246,7 +246,9 @@ button:active {
     /* margin: 0px 0px 0px 16px; */
 }
 .box button {
+    background-color: whitesmoke;
     color: black;
+    outline: none;
     font-family: sans-serif;
     font-weight: bold;
     font-size: 14px;
