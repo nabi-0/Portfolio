@@ -181,24 +181,63 @@ button:active {
 .box1 {
     width: 300px;
     height: 320px;
-    background-color: whitesmoke;
+    background-color:black;
     box-shadow: 2px 2px 12px rgba(146, 0, 114, 0.815);
     border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .box2 {
     width: 300px;
-    height: 250px;
-    box-shadow: 2px 2px 12px black;
+    height: 320px;
+    background-color: black;
+    box-shadow: 2px 2px 12px rgba(146, 0, 114, 0.815);
     border-radius: 10px;
 }
 .box3 {
     width: 300px;
-    height: 250px;
+    height: 320px;
     background-color: black;
     box-shadow: 2px 2px 12px rgba(146, 0, 114, 0.815);
     border-radius: 10px;
 }
 .box {
-    display: flex;
     justify-content: space-between;
+    display: flex;
+}
+.box1 h2, .box2 h2, .box3 h2 {
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans Unicode';
+    font-weight: bolder;
+}
+.box1 p:nth-child(2), .box2 p:nth-child(2), .box3 p:nth-child(2) {
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Lucida Sans Unicode';
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 0px;
+}
+.box1 p:nth-child(3), .box2 p:nth-child(3), .box3 p:nth-child(3) {
+    color: whitesmoke;
+    font-family: 'Lucida Sans Unicode';
+    text-align: center;
+    width: 230px;
+    margin: 0px 0px 0px 16px;
+}
+.box button {
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 100px;
+    height: 27px;
+    border: none;
+    border-radius: 10px;
+
 }
