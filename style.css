@@ -11,7 +11,7 @@ a {
 }
 section {
     width: 100%;
-    height: 95vh;
+    height: 80vh;
     position: relative;
     /*background-image: url("/Users/valerie/Documents/UTSABCC/Homework/Portfolio/assets/images/naisa_clouds.jpg");*/
     background-repeat: no-repeat;
@@ -40,6 +40,7 @@ nav ul li a {
     font-family: 'Lucida Sans Unicode';
     color: black;
     font-size: 20px;
+    border-bottom: 2px solid black;
 }
 .active {
     font-weight: bold;
@@ -103,7 +104,7 @@ button:active {
 } */
 .about-me-container {
     width: 80%;
-    height: 330px;
+    height: 370px;
     background-color: white;
     border-radius: 20px;
     box-shadow: 2px 2px 12px rgba(146, 0, 114, 0.815);
@@ -124,7 +125,7 @@ button:active {
     font-family: 'Lucida Sans Unicode';
     font-weight: bold;
     font-size: 23px;
-    /*line-height: 0px;*/
+    /* line-height: 0px; */
     border-bottom: 2px solid black;
 }
 .about-me-text p:nth-child(2) {
@@ -189,7 +190,7 @@ button:active {
 }
 .box1 {
     width: 300px;
-    height: 320px;
+    height: 340px;
     background-color:black;
     box-shadow: 2px 2px 12px rgba(146, 0, 114, 0.815);
     /*border-radius: 10px;
@@ -199,17 +200,17 @@ button:active {
 }
 .box2 {
     width: 300px;
-    height: 320px;
+    height: 340px;
     background-color: black;
     box-shadow: 2px 2px 12px rgba(146, 0, 114, 0.685);
-    border-radius: 10px;
+    /*border-radius: 10px;*/
 }
 .box3 {
     width: 300px;
-    height: 320px;
+    height: 340px;
     background-color: black;
     box-shadow: 2px 2px 12px rgba(146, 0, 114, 0.685);
-    border-radius: 10px;
+    /*border-radius: 10px;*/
 }
 .box {
     justify-content: space-between;
@@ -231,14 +232,16 @@ button:active {
     font-family: 'Lucida Sans Unicode';
     font-weight: bold;
     font-size: 25px;
-    line-height: 0px;
+    /* line-height: 0px; */
+    border-bottom: 2px solid whitesmoke;
 }
 .box1 p:nth-child(3), .box2 p:nth-child(3), .box3 p:nth-child(3) {
     color: whitesmoke;
     font-family: 'Lucida Sans Unicode';
+    font-size: 15px;
     text-align: center;
-    width: 230px;
-    margin: 0px 0px 0px 16px;
+    /* width: 230px; */
+    /* margin: 0px 0px 0px 16px; */
 }
 .box button {
     color: black;
@@ -261,11 +264,54 @@ button:active {
     align-items: center;
     justify-content: center;
 }
-h2 {
+.contact p:nth-child(1) {
+    font-family: 'Lucida Sans Unicode';
+    font-weight: bolder;
+    font-size: 30px;
+    /*line-height: 0px;*/
     border-bottom: 2px solid black;
 }
-.contact p {
+.contact p:nth-child(2) {
+    font-family: 'Lucida Sans Unicode';
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 5px;
+    margin-bottom: 0px;
+}
+.contact p:nth-child(3) {
     font-family: inherit;
     font-size: 15px;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
 }
+.social a{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    color: black;
+    margin: 5px 5px;
+    margin-bottom: 45px;
+}
+/* .social a:nth-child(1) {
+} */
+.social {
+    display: flex;
+    justify-content: center;
+}
+.copyright {
+    background-color: white;
+    height: 40px;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 50px;
+    box-shadow: rgba(146, 0, 114, 0.815);
+}
+
+
