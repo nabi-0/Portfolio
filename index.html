@@ -9,11 +9,12 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/d951a73f90.js" crossorigin="anonymous"></script>
+    <script src="myscripts.js"></script>
 </head>
 
 <body>
     <section>
-        <nav>
+        <nav class="header" id="myHeader">
             <a class="logo"> Natalia Arias</a>
             <ul>
                 <li>
@@ -61,7 +62,7 @@
         <div class="box">
             <div class="box1">
                 <p>1</p>
-                <p class="title">Team Player</p>
+                <p class="title">Team Player App</p>
                 <p class="details">Write about HW4 the quiz and say cool stuff about it so
                     we can have ice cream for dinner and chill.</p>
                 <button><a target="_blank" href="https://nabi-0.github.io/Project1/">Website</a></button><br>
@@ -69,7 +70,7 @@
             </div>
             <div class="box2">
                 <p>2</p>
-                <p class="title">Password Generator</p>
+                <p class="title">Password Generator App</p>
                 <p class="details">Write about HW4 the quiz and say cool stuff about it so
                     we can have ice cream for dinner and chill.</p>
                 <button class="gitweb"><a target="_blank"
@@ -78,7 +79,7 @@
             </div>
             <div class="box3">
                 <p>3</p>
-                <p class="title">Code Quiz</p>
+                <p class="title">Code Quiz App</p>
                 <p class="details">Write about HW4 the quiz and say cool stuff about it so
                     we can have ice cream for dinner and chill.</p>
                 <button><a target="_blank" href="https://nabi-0.github.io/Code_Quiz/">Website</a></button><br>
@@ -94,20 +95,20 @@
                         Repo</a></button>
             </div>
             <div class="box1">
-                <p>1</p>
-                <p class="title">Team Player</p>
+                <p>5</p>
+                <p class="title">Social Networking App</p>
                 <p class="details">Write about HW4 the quiz and say cool stuff about it so
                     we can have ice cream for dinner and chill.</p>
-                <button><a target="_blank" href="https://nabi-0.github.io/Project1/">Website</a></button><br>
-                <button><a target="_blank" href="https://github.com/nabi-0/Project1">Git Repo</a></button>
+                <button><a target="_blank" href="https://pea-two-roku.herokuapp.com/">Website</a></button><br>
+                <button><a target="_blank" href="https://github.com/nabi-0/Project2">Git Repo</a></button>
             </div>
             <div class="box4">
-                <p>4</p>
-                <p class="title">Burger App</p>
+                <p>6</p>
+                <p class="title">Note Taker App</p>
                 <p class="details">Write about Burger App the quiz and say cool stuff about it so
                     we can have ice cream for dinner and chill.</p>
-                <button><a target="_blank" href="https://burger-app-roku.herokuapp.com/">Website</a></button><br>
-                <button><a target="_blank" href="https://github.com/nabi-0/Node_Express_Handlebars">Git
+                <button><a target="_blank" href="https://note-taker-roku.herokuapp.com/">Website</a></button><br>
+                <button><a target="_blank" href="https://github.com/nabi-0/Note_Taker">Git
                         Repo</a></button>
             </div>
         </div>
@@ -123,22 +124,39 @@
         </div>
         <div class="social">
             <a href="https://github.com/nabi-0" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/in/natalia-arias-95a5761b0/" target="_blank"><i
+                    class="fab fa-linkedin"></i></a>
             <a href="mailto:arias.natalia1303@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
         </div>
     </div>
-    <!----were social bar was---->
+    <!----where social bar was---->
     <footer class="copyright">
         <p> &copy; Natalia Arias 2020</p>
         <p>♥︎</p>
         <div class="social-bar">
             <!--button id="#home">H</button-->
             <a href="https://github.com/nabi-0" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/in/natalia-arias-95a5761b0/" target="_blank"><i
+                    class="fab fa-linkedin"></i></a>
             <a href="mailto:arias.natalia1303@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
         </div>
     </footer>
     <script src="JQuery.js"></script>
+    <script src="myscripts.js"></script>
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
 </body>
 
 </html>
